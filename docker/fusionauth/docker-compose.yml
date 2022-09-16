@@ -65,7 +65,7 @@ services:
       - search_net
     restart: unless-stopped
     ports:
-      - 9011:9011
+      - 80:9011
     volumes:
       - fusionauth_config:/usr/local/fusionauth/config
 
